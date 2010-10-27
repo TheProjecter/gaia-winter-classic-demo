@@ -1,0 +1,70 @@
+﻿<site title="NHL Winter Classic: %PAGE% - Gaia Demo" indexFirst="true" menu="true" preloaderDomain="current">
+  <page id="index" title="Loading" src="swf/index.swf" bytes="3926" seoBytes="2226">
+    <asset id="winterCss" src="css/winterclassic.css" bytes="214"/>
+    <asset id="footerContent" src="xml/footer.xml" bytes="449"/>
+    <page id="nav" src="swf/nav.swf" depth="top" bytes="2385715">
+      <page id="siteContainer" src="swf/siteContainer.swf" bytes="2058682">
+        <page id="home" title="Home" src="swf/home.swf" menu="true" bytes="432963"/>
+        <page id="caps" src="swf/caps.swf" bytes="635846">
+          <page id="capsHome" title="Capitals Home" src="swf/capsHome.swf" seo="true" menu="true" bytes="42415" seoBytes="3067"/>
+          <page id="capsPhotos" title="Caps Photos" src="swf/capsPhotos.swf" menu="true" landing="true" bytes="29336">
+            <asset id="thumb1" src="photos/caps/thumbs/photo1.jpg" bytes="25673"/>
+            <asset id="thumb2" src="photos/caps/thumbs/photo2.jpg" bytes="20854"/>
+            <asset id="thumb3" src="photos/caps/thumbs/photo3.jpg" bytes="17254"/>
+            <asset id="thumb4" src="photos/caps/thumbs/photo4.jpg" bytes="19888"/>
+            <asset id="thumb5" src="photos/caps/thumbs/photo5.jpg" bytes="27600"/>
+            <asset id="thumb6" src="photos/caps/thumbs/photo6.jpg" bytes="23718"/>
+            <page id="photo1" title="Caps Photo 1" src="swf/capsSinglePhoto.swf" depth="top" bytes="18435">
+              <asset id="photo" src="photos/caps/photo1.jpg" bytes="100121"/>
+            </page>
+            <page id="photo2" title="Caps Photo 2" src="swf/capsSinglePhoto.swf" depth="top" bytes="18435">
+              <asset id="photo" src="photos/caps/photo2.jpg" bytes="67812"/>
+            </page>
+            <page id="photo3" title="Caps Photo 3" src="swf/capsSinglePhoto.swf" depth="top" bytes="18435">
+              <asset id="photo" src="photos/caps/photo3.jpg" bytes="36882"/>
+            </page>
+            <page id="photo4" title="Caps Photo 4" src="swf/capsSinglePhoto.swf" depth="top" bytes="18435">
+              <asset id="photo" src="photos/caps/photo4.jpg" bytes="68785"/>
+            </page>
+            <page id="photo5" title="Caps Photo 5" src="swf/capsSinglePhoto.swf" depth="top" bytes="18435">
+              <asset id="photo" src="photos/caps/photo5.jpg" bytes="100880"/>
+            </page>
+            <page id="photo6" title="Caps Photo 6" src="swf/capsSinglePhoto.swf" depth="top" bytes="18435">
+              <asset id="photo" src="photos/caps/photo6.jpg" bytes="112742"/>
+            </page>
+          </page>
+        </page>
+        <page id="pens" src="swf/pens.swf" bytes="407245">
+          <page id="pensburgCentral" title="Penguins Home" src="swf/pensHome.swf" seo="true" menu="true" bytes="37159" seoBytes="3132"/>
+          <page id="pensPhotos" title="Pens Photos" src="swf/pensPhotos.swf" menu="true" landing="true" bytes="23063">
+            <asset id="thumb1" src="photos/pens/thumbs/photo1.jpg" bytes="18236"/>
+            <asset id="thumb2" src="photos/pens/thumbs/photo2.jpg" bytes="19247"/>
+            <asset id="thumb3" src="photos/pens/thumbs/photo3.jpg" bytes="20285"/>
+            <asset id="thumb4" src="photos/pens/thumbs/photo4.jpg" bytes="24002"/>
+            <asset id="thumb5" src="photos/pens/thumbs/photo5.jpg" bytes="22094"/>
+            <asset id="thumb6" src="photos/pens/thumbs/photo6.jpg" bytes="22298"/>
+            <page id="photo1" title="Pens Photo 1" src="swf/pensSinglePhoto.swf" depth="top" bytes="18148">
+              <asset id="photo" src="photos/pens/photo1.jpg" bytes="75899"/>
+            </page>
+            <page id="photo2" title="Pens Photo 2" src="swf/pensSinglePhoto.swf" depth="top" bytes="18148">
+              <asset id="photo" src="photos/pens/photo2.jpg" bytes="84280"/>
+            </page>
+            <page id="photo3" title="Pens Photo 3" src="swf/pensSinglePhoto.swf" depth="top" bytes="18148">
+              <asset id="photo" src="photos/pens/photo3.jpg" bytes="90816"/>
+            </page>
+            <page id="photo4" title="Pens Photo 4" src="swf/pensSinglePhoto.swf" depth="top" bytes="18148">
+              <asset id="photo" src="photos/pens/photo4.jpg" bytes="79770"/>
+            </page>
+            <page id="photo5" title="Pens Photo 5" src="swf/pensSinglePhoto.swf" depth="top" bytes="18148">
+              <asset id="photo" src="photos/pens/photo5.jpg" bytes="96544"/>
+            </page>
+            <page id="photo6" title="Pens Photo 6" src="swf/pensSinglePhoto.swf" depth="top" bytes="18148">
+              <asset id="photo" src="photos/pens/photo6.jpg" bytes="118829"/>
+            </page>
+          </page>
+        </page>
+        <page id="credits" title="Credits" src="swf/credits.swf" seo="true" menu="true" bytes="103834" seoBytes="5526"/>
+      </page>
+    </page>
+  </page>
+</site>

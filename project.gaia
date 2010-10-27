@@ -1,0 +1,58 @@
+﻿<project>
+  <name>gaia demo test v1</name>
+  <language>AS3</language>
+  <player>10</player>
+  <version>3.2.3</version>
+  <tweenMax>11.38</tweenMax>
+  <width>1000</width>
+  <height>600</height>
+  <width100>true</width100>
+  <height100>true</height100>
+  <centerX>true</centerX>
+  <centerY>true</centerY>
+  <bgColor>FFFFFF</bgColor>
+  <fps>30</fps>
+  <uri>file:///D|/clients/gaia/sites/v2</uri>
+  <flashPath>lib</flashPath>
+  <publishPath>bin</publishPath>
+  <classesPath>src</classesPath>
+  <siteXmlPath>xml</siteXmlPath>
+  <classPackage>net.aliencom.gaiademo.pages</classPackage>
+  <template>Timeline</template>
+  <seo>true</seo>
+  <domain>gaiademo.aliencom.net/</domain>
+  <modified>1288163554206</modified>
+  <optimizeTypes>
+    <bitmapAsset>true</bitmapAsset>
+    <bitmapSpriteAsset>true</bitmapSpriteAsset>
+    <soundAsset>true</soundAsset>
+    <soundClipAsset>true</soundClipAsset>
+    <netStreamAsset>true</netStreamAsset>
+    <textAsset>true</textAsset>
+    <xmlAsset>true</xmlAsset>
+    <styleSheetAsset>true</styleSheetAsset>
+    <jsonAsset>true</jsonAsset>
+    <byteArrayAsset>true</byteArrayAsset>
+  </optimizeTypes>
+  <publishData>
+    <node label="lib" checked="1">
+      <node label="swf" icon="flashFileIcon" checked="1">
+        <node label="caps.fla" icon="flashFileIcon" checked="1" src="swf/caps.fla"/>
+        <node label="capsHome.fla" icon="flashFileIcon" checked="1" src="swf/capsHome.fla"/>
+        <node label="capsPhotos.fla" icon="flashFileIcon" checked="1" src="swf/capsPhotos.fla"/>
+        <node label="capsSinglePhoto.fla" icon="flashFileIcon" checked="1" src="swf/capsSinglePhoto.fla"/>
+        <node label="credits.fla" icon="flashFileIcon" checked="1" src="swf/credits.fla"/>
+        <node label="home.fla" icon="flashFileIcon" checked="1" src="swf/home.fla"/>
+        <node label="index.fla" icon="flashFileIcon" checked="1" src="swf/index.fla"/>
+        <node label="nav.fla" icon="flashFileIcon" checked="1" src="swf/nav.fla"/>
+        <node label="pens.fla" icon="flashFileIcon" checked="1" src="swf/pens.fla"/>
+        <node label="pensHome.fla" icon="flashFileIcon" checked="1" src="swf/pensHome.fla"/>
+        <node label="pensPhotos.fla" icon="flashFileIcon" checked="1" src="swf/pensPhotos.fla"/>
+        <node label="pensSinglePhoto.fla" icon="flashFileIcon" checked="1" src="swf/pensSinglePhoto.fla"/>
+        <node label="siteContainer.fla" icon="flashFileIcon" checked="1" src="swf/siteContainer.fla"/>
+      </node>
+      <node label="preload.fla" icon="flashFileIcon" checked="1" src="preload.fla"/>
+      <node label="main.fla" icon="mainFileIcon" checked="1" src="main.fla"/>
+    </node>
+  </publishData>
+</project>

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gaia Framework Site</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/swfaddress.js"></script>
+<script type="text/javascript">
+	var params = {
+		quality: "high",
+		scale: "noscale",
+		wmode: "window",
+		allowscriptaccess: "always",
+		bgcolor: "#FFFFFF"
+	};
+	var flashvars = {
+		branch: "index/nav/siteContainer/caps/capsPhotos",
+		siteXML: "xml/site.xml"
+	};
+	var attributes = {
+		id: "flashcontent",
+		name: "flashcontent"
+	};
+	swfobject.embedSWF("main.swf", "flashcontent", "100%", "100%", "10.0.0", "expressInstall.swf", flashvars, params, attributes);
+</script>
+<style type="text/css">
+	/*hide from ie on mac\*/
+	html {
+		height: 100%;
+		overflow: hidden
+	}
+	#flashcontent {
+		width: 100%;
+		height: 100%;
+	}
+	/* end hide */
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #FFFFFF;
+	}
+</style>
+</head>
+<body>
+	<div id="flashcontent">
+		<div id="alternateContent">
+			<h1>NHL Winter Classic - Gaia Demo</h1>
+			<h2>Caps Photos</h2>
+            <ul id="sitenav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="capsHome.html">Unleash the Fury</a></li>
+                <li><a href="capsPhotos.html">Caps Photos</a></li>
+                <li><a href="pensburgCentral.html">Pensburg Central</a></li>
+                <li><a href="pensPhotos.html">Pens Photos</a></li>
+                <li><a href="credits.html">Credits for this Gaia demo</a></li>
+            </ul>
+			<div id="copy">
+				<p id="sample">Sample</p>
+			</div>
+		</div>
+		<div id="noflash">
+			<p><strong>You need to upgrade your Flash Player</strong></p>
+			<p>This is replaced by the Flash content.</p>
+			<p>Place your alternate content here and users without the Flash plugin or with
+			Javascript turned off will see this. Content here allows you to leave out <code>noscript</code>
+			tags. Include a link to <a href="capsPhotos.html?detectflash=false">bypass the detection</a> if you wish.</p>
+		</div>
+		<span class="footer">This is a demo of the <a href="http://www.gaiaflashframework.com/" target="_blank">Gaia Flash Framework</a><br></br><a href="credits.html">Watch The Video</a> | <a href="#/credits">Credits</a> | <a href="https://code.google.com/p/gaia-winter-classic-demo/" target="_blank">Source Code</a></span><br></br><span class="disclaimer">Not an official site of the NHL</span>]]>
+	</div>
+</body>
+</html>
