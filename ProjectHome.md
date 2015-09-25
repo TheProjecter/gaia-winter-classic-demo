@@ -1,0 +1,10 @@
+This is a demonstration of how to create a site using the Gaia Framework for Adobe Flash.
+
+This project was presented October 2010 at the [Flash the District](http://www.meetup.com/flashthedistrict/) meetup.
+
+
+It was presented by Kris Meister and Will Carroll.
+
+You can find the zip on the right hand side under the heading Featured Downloads
+
+see the [Gaia Winter Classic Demo Site](http://gaiademo.aliencom.net)
